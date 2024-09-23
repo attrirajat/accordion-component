@@ -8,3 +8,6 @@ Features
     •	Only one section is expanded at a time (auto-close of other sections)
     •	Smooth toggle between open and closed states
     •	Simple and lightweight
+
+Live Demo
+https://attrirajat.github.io/accordion-component/
