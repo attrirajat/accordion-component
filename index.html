@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accordion</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Accordion Example</h1>
+    <button class="accordion" onclick="openTab(event)">
+      Home <span>+</span>
+    </button>
+    <div class="panel">
+      <p>Lorem ipsum odor amet, consectetuer adipiscing elit.</p>
+    </div>
+
+    <button class="accordion" onclick="openTab(event)">
+      Profile <span>+</span>
+    </button>
+    <div id="Profile" class="panel">
+      <p>Lorem ipsum odor amet, consectetuer adipiscing elit.</p>
+    </div>
+
+    <button class="accordion" onclick="openTab(event)">
+      About <span>+</span>
+    </button>
+    <div id="About" class="panel">
+      <p>Lorem ipsum odor amet, consectetuer adipiscing elit.</p>
+    </div>
+
+    <button class="accordion" onclick="openTab(event)">
+      Settings <span>+</span>
+    </button>
+    <div id="Settings" class="panel">
+      <p>Lorem ipsum odor amet, consectetuer adipiscing elit.</p>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
